@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: #ece8e8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button,
+select {
+  font-size: 1rem;
+}
+
+header form {
+  text-align: center;
+  margin: 1rem;
+}
+
+header form > input#search-news-topic {
+  width: 25%;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+}
+
+section#news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+section#news-grid img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+div.news-grid-box {
+  margin: 1rem;
+}
+
+span.subtitle {
+  font-style: italic;
+}
